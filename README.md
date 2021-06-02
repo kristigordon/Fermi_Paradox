@@ -1,6 +1,6 @@
 ![image](https://user-images.githubusercontent.com/66803124/120327249-66c8f780-c29e-11eb-9a43-026227ff6877.png)
 
-# Fermi_Paradox
+# Fermi Paradox
 
 The idea that we are not alone in the universe has excited and frightened sceintist and earthly other inhabitants for centuries. Yes, the chances of life occuring on Earth are slim, in fact two well known scientists calculated the odds of life forming by natural processes. They estimated that there is less than 1 chance in 10 to the 40,000power that life could have originated by random trials. 10 to the 40,000power is a 1 with 40,000 zeros after it!
 
@@ -24,7 +24,7 @@ Though this may seem impossible to replicate, the universe's size is nearly beyo
 
 Drake's Equation is a probabilistic argument used to estimate the number of active, communicative extraterrestrial civilizations in the Milky Way galaxy. The equation looks at the  galaxy currently producing electromagnetic emissions, such as radio waves. 
 
-The equation has been updated to account for the 2017 exoplanet discoveries made by NASA's Kepler satelite.  
+The equation has been updated to account for the 2017 exoplanet discoveries made by NASA's Kepler satelite.
 
 ![image](https://user-images.githubusercontent.com/66803124/120327170-51ec6400-c29e-11eb-8529-2407bd20afbe.png)
 
@@ -32,7 +32,12 @@ This is where it gets interesting.
 
 For humanity to be the first and only technologically advanced species, the probability of an advanced civilization developing on a habitable alien planet would have to be less than 1 in 10 billion trillion! And yet, as Nobel Prize–winning physicist Enrico Fermi famously observed,  “Where is everybody?”
 
-![image](https://user-images.githubusercontent.com/66803124/120327443-a0016780-c29e-11eb-8bb8-3dd0125c3987.png)
+That is the problem we are looking at today. We are going to simulate this theory in the Milky Way Galaxy using Drake's Equation and Fermi's Paradox as an underlying current pushing us towards discovery. 
 
-That is the problem we are looking at today. We are going to simulate this theory in the Milky Way Galaxy using Drake's Equation and Fermi's Paradox as an underlying current pushing us towards discovery.
+![image](https://user-images.githubusercontent.com/66803124/120471280-5fb2ef80-c359-11eb-9adc-a22342abb5f5.png)
+
+First, we will model the Milky Way Galaxy 
+
+![image](https://user-images.githubusercontent.com/66803124/120471229-532e9700-c359-11eb-8ab1-3fbb931f436d.png)
+
 
