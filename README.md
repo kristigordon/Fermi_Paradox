@@ -34,9 +34,20 @@ For humanity to be the first and only technologically advanced species, the prob
 
 That is the problem we are looking at today. We are going to simulate this theory in the Milky Way Galaxy using Drake's Equation and Fermi's Paradox as an underlying current pushing us towards discovery. 
 
+![image](https://user-images.githubusercontent.com/66803124/120471546-b02a4d00-c359-11eb-9c7f-b6e18622ddbd.png)
+
+# THE STRATEGY
+Here are the steps needed to complete this project:
+1. Estimate the number of transmitting civilizations using the Drake equation.
+2. Choose a size range for their radio bubbles.
+3. Generate a formula for estimating the probability of one civilization detecting another.
+4. Build a graphical model of the galaxy and post Earth’s radio emissions bubble.
+In order to keep the description close to the code, each of these tasks will be described in
+detail in its own section. Note that the first two steps don’t require the use of Python.
+
 ![image](https://user-images.githubusercontent.com/66803124/120471280-5fb2ef80-c359-11eb-9adc-a22342abb5f5.png)
 
-First, we will model the Milky Way Galaxy 
+First, we will model the Milky Way Galaxy in 2D so we can have perspective for the rest of the project. 
 
 ![image](https://user-images.githubusercontent.com/66803124/120471229-532e9700-c359-11eb-8ab1-3fbb931f436d.png)
 
