@@ -51,4 +51,4 @@ First, we will model the Milky Way Galaxy in 2D so we can have perspective for t
 
 ![image](https://user-images.githubusercontent.com/66803124/120471229-532e9700-c359-11eb-8ab1-3fbb931f436d.png)
 
-
+You can find the full code in  Jupyter Notebook within the files. 
