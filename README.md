@@ -20,6 +20,7 @@ Fred Hoyle and N. Chandra Wickramasinghe,
 Evolution from Space [Aldine House, 33 Welbeck Street, London W1M 8LX:J.M. Dent & Sons, 1981), p. 148, 24,150,30,31).
 ```
 Though this may seem impossible to replicate, the universe's size is nearly beyond comprehension. Not only is our galaxy immense, but so are the perhaps infinite others that make up our universe. When looked at on this scale, the chances of life are much more probable. 
+
 ![image](https://user-images.githubusercontent.com/66803124/120330082-51090180-c2a1-11eb-9921-16f466cbbf21.png)
 
 Drake's Equation is a probabilistic argument used to estimate the number of active, communicative extraterrestrial civilizations in the Milky Way galaxy. The equation looks at the  galaxy currently producing electromagnetic emissions, such as radio waves. 
