@@ -116,5 +116,6 @@ Need to start at 2 because if there was 1, there would be ZERO probability of de
      
     x.append(civs_per_volume)
     y.append(detection_prob)
+ 
  for x, y in zip(x, y):
-     print(x, y)
+ print(x, y)
