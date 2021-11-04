@@ -55,10 +55,12 @@ First, we will model the Milky Way Galaxy in 2D so we can have perspective for t
 You can find the full code in  Jupyter Notebook within the files but here is how I got started:
 
 VOLUMES = 1000 
-# number of locations in which to place civilizations (Cubes)
+number of locations in which to place civilizations (Cubes)
+
 MAX_CIVS = 5000 
-# maximum number of advanced civilizations 
-# (We aren't going to start off looking at 5,000, starting at 2 civilizations and randomly assign them to one of the locations)
+maximum number of advanced civilizations 
+(We aren't going to start off looking at 5,000, starting at 2 civilizations and randomly assign them to one of the locations)
+
 TRIALS = 1000 
 # number of times to model a given number of civilizations
 # (In order to come up with a probability that makes sense)
