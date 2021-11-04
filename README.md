@@ -52,4 +52,59 @@ First, we will model the Milky Way Galaxy in 2D so we can have perspective for t
 
 ![image](https://user-images.githubusercontent.com/66803124/120471229-532e9700-c359-11eb-8ab1-3fbb931f436d.png)
 
-You can find the full code in  Jupyter Notebook within the files. 
+You can find the full code in  Jupyter Notebook within the files but here is how I got started:
+
+VOLUMES = 1000 
+# number of locations in which to place civilizations (Cubes)
+MAX_CIVS = 5000 
+# maximum number of advanced civilizations 
+# (We aren't going to start off looking at 5,000, starting at 2 civilizations and randomly assign them to one of the locations)
+TRIALS = 1000 
+# number of times to model a given number of civilizations
+# (In order to come up with a probability that makes sense)
+CIV_STEP_SIZE = 100 
+# civilizations count step size
+# (Since we start at 2, we step up by 100 each time to try and limit the amount of time/memory usage.) 
+# Step 1: 2 and run 1,000 times, Step 2: 102 etc.
+In [29]:
+x = [] 
+# x values for polynomial fit 
+# Civilizations per volume (Step 1: x = 2 / 1000) .002 which makes it very unlikely that they will be sharing the same cube (detectable). 
+y = [] 
+# y values for polynomial fit
+# After we randomly assigning the civilization to locations 1,000 times, 
+# we will know the probability of the civilizations being able to detect one another.
+In [30]:
+for num_civs in range(2, MAX_CIVS + 2, CIV_STEP_SIZE):
+# Need to start at 2 because if there was 1, there would be ZERO probability of detection. 
+    number_of_single_civs = 0
+    civs_per_volume = num_civs / VOLUMES
+    for trial in range(TRIALS):
+        locations = []
+        while len(locations) < num_civs:
+            # Keep adding to locations until it is equal to the num_civs we have. 
+            # If we are testing 102 civilizations, we only want there to be 102 possible locations.
+            location = randint(1, VOLUMES)
+            locations.append(location)
+            # Append the location to the locations list, keep adding so long as the # is less than num_civs. 
+        overlap_count = Counter(locations)
+        count_of_values = Counter(overlap_count.values())
+        number_of_single_civs = number_of_single_civs + count_of_values[1]
+#         if num_civs == 102:
+#             print("trial " + str(trial) + ": " + str(locations) + "\n" + str(overlap_count))
+#             print("Occurences: " + str(count_of_values))
+#             print("Number of Single Civilizations: " + str(count_of_values[1]))
+#             print("Probability of Single: " + str(count_of_values[1]/num_civs))
+#             single_prob = count_of_values[1]/num_civs
+#             detect_prob = 1 - single_prob 
+#             print("Probability of Detection: " + str(detect_prob))
+#             print()
+    detection_prob = 1 - (number_of_single_civs/(num_civs * TRIALS))
+#     print("Civilizations per Volume: " + str(civs_per_volume))
+#     print("Probability of Detection/Probability of 2 or more civilizations in one location: " + str(detection_prob))
+#     print(num_civs)
+#     print()
+    x.append(civs_per_volume)
+    y.append(detection_prob)
+# for x, y in zip(x, y):
+#     print(x, y)
