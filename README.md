@@ -2,7 +2,7 @@
 
 # Fermi Paradox
 
-The idea that we are not alone in the universe has excited and frightened sceintist and earthly other inhabitants for centuries. Yes, the chances of life occuring on Earth are slim, in fact two well known scientists calculated the odds of life forming by natural processes. They estimated that there is less than 1 chance in 10 to the 40,000power that life could have originated by random trials. 10 to the 40,000power is a 1 with 40,000 zeros after it!
+The idea that we are not alone in the universe has excited and frightened sceintist and earthly other inhabitants for centuries. Yes, the chances of life occuring on Earth were slim, in fact two well known scientists calculated the odds of life forming by natural processes. They estimated that there is less than 1 chance in 10 to the 40,000power that life could have originated by random trials. 10 to the 40,000power is a 1 with 40,000 zeros after it!
 
 ```
 - "...life cannot have had a random beginning...The trouble is that there are about two thousand enzymes, and the 
